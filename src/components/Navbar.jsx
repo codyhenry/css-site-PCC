@@ -9,7 +9,7 @@ export default function NavBar() {
       <Container>
         <Navbar.Brand href="#home">Company</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <NavDropdown title="Profile" id="basic-nav-dropdown">
