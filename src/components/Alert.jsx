@@ -3,7 +3,7 @@ import Alert  from "react-bootstrap/Alert";
 const successAlert = (message) => {
     return (
         <Alert variant="success">
-           <span class="font-weight-bold">Success!</span>  {message}
+           Success! {message}
         </Alert>
     );
 };
